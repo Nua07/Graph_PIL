@@ -3,7 +3,7 @@ import math
 from PIL import ImageDraw, Image
 import io
 
-def Graph(exp, xSize, ySize):
+def Graph(exp):
     img = Image.new("RGBA", (1000,1000), (0,0,0,0))
     draw=ImageDraw.Draw(img)
     draw.rectangle(((0, 00), (1000, 1000)), fill="white")
